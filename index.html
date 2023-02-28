@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        #main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            text-align: center;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        button {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="changeMode();">Dark Mode</button>
+
+    <div id="main">
+        <span id="quote"></span>
+        <br />
+        <span id="owner"></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
